@@ -11,3 +11,7 @@
 - We then undersampled the data using ClusterCentroids resampler algorithm
 - After that, we wanted to use a combination of both over- and undersampling. For this we used SMOTEENN algorithm
 - Once we completed this, our final task was to compare two different machine learning models to reduce bias in our data. For this we used BalancedRandomForestClassifier and EasyEnsembleClassifier. 
+
+## Results
+
+- 
