@@ -6,8 +6,8 @@
 
 - In our analysis we used several different models and sampled the data in different ways.
 
--- The first part utilized scikit-learn and imbalanced-learn to build and evaluate models using resampling
--- The next part included oversampling using RandomOverSampler and SMOTE algorithms
--- We then undersampled the data using ClusterCentroids resampler algorithm
--- After that, we wanted to use a combination of both over- and undersampling. For this we used SMOTEENN algorithm
--- Once we completed this, our final task was to compare two different machine learning models to reduce bias in our data. For this we used BalancedRandomForestClassifier and EasyEnsembleClassifier. 
+- The first part utilized scikit-learn and imbalanced-learn to build and evaluate models using resampling
+- The next part included oversampling using RandomOverSampler and SMOTE algorithms
+- We then undersampled the data using ClusterCentroids resampler algorithm
+- After that, we wanted to use a combination of both over- and undersampling. For this we used SMOTEENN algorithm
+- Once we completed this, our final task was to compare two different machine learning models to reduce bias in our data. For this we used BalancedRandomForestClassifier and EasyEnsembleClassifier. 
