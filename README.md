@@ -32,25 +32,6 @@
 - The recall for high risk was 61%, which was lower but for low risk went up to 69%. 
 - Here however, our F1 went up to 81%. 
 
-### Balanced Random Forest Classifier 
-
-<img width="851" alt="Screen Shot 2021-01-29 at 11 02 38 AM" src="https://user-images.githubusercontent.com/68168883/106298359-cc8a7180-6221-11eb-9e79-6b059c284ce3.png">
-
-- Here we used the Balanced Random Forest Classifier and our balanced accuracy score was 76.4%.
-- Our overall precision was but we noticed that the high risk went up slightly to 3%. 
-- The recall for high was was only 63% but the low risk was much higher at 89%.
-- Because our recall went up, our F1 reached a new high at 94%. 
-
-### Easy Ensemble AdaBoost Classifier
-
-<img width="844" alt="Screen Shot 2021-01-29 at 11 02 50 AM" src="https://user-images.githubusercontent.com/68168883/106298367-cf856200-6221-11eb-9b8f-a9939945cf38.png">
-
-- In our final model, using Easy Ensemble, our balanced accuracy shot up to 91.5%
-- Our overall precision was 99% and saw that high risk precision went up even a little more to 5%. 
-- The recall for high risk shot up to 93% and low risk to 90%, representing highs for both measures.
-- Our F1 remained at 94%, but still much better than the non-ensemble methods of resampling the data.
-
-
 ### Undersampling
 
 <img width="862" alt="Screen Shot 2021-01-29 at 10 54 02 AM" src="https://user-images.githubusercontent.com/68168883/106297040-55081280-6220-11eb-967f-5a453a5d2908.png">
@@ -69,3 +50,24 @@
 - The recall for high risk went to our highest level thus far at 72% and low risk was on the low end at 57%. 
 - As we would expect based on recall, the value for our F1 was much better than undersampling but still lower than we saw previously at 72%. 
 
+### Balanced Random Forest Classifier 
+
+<img width="851" alt="Screen Shot 2021-01-29 at 11 02 38 AM" src="https://user-images.githubusercontent.com/68168883/106298359-cc8a7180-6221-11eb-9e79-6b059c284ce3.png">
+
+- Here we used the Balanced Random Forest Classifier and our balanced accuracy score was 76.4%.
+- Our overall precision was but we noticed that the high risk went up slightly to 3%. 
+- The recall for high was was only 63% but the low risk was much higher at 89%.
+- Because our recall went up, our F1 reached a new high at 94%. 
+
+### Easy Ensemble AdaBoost Classifier
+
+<img width="844" alt="Screen Shot 2021-01-29 at 11 02 50 AM" src="https://user-images.githubusercontent.com/68168883/106298367-cf856200-6221-11eb-9b8f-a9939945cf38.png">
+
+- In our final model, using Easy Ensemble, our balanced accuracy shot up to 91.5%
+- Our overall precision was 99% and saw that high risk precision went up even a little more to 5%. 
+- The recall for high risk shot up to 93% and low risk to 90%, representing highs for both measures.
+- Our F1 remained at 94%, but still much better than the non-ensemble methods of resampling the data.
+
+## Summary
+
+In trying to determine which loans would be considered high or low credit risk, we resampled our data using 6 different models. We used 4 models of resampling, which included oversampling, undersampling and a combination of both and these models provided modest results. When we switched to ensemble classifiers, our results were significantly better. While Balanced Random Forest did produce very good results, Easy Ensemble demonstrated a better representation of recall and precision so our recommendation for a machine learning model would be to use the Easy Ensemble Classifier. 
