@@ -6,7 +6,7 @@
 
 - In our analysis we used several different models and sampled the data in different ways.
 
-- The first part utilized scikit-learn and imbalanced-learn to build and evaluate models using resampling
+- First we decided to utilize scikit-learn and imbalanced-learn to build and evaluate models using resampling as follows below
 - The next part included oversampling using RandomOverSampler and SMOTE algorithms
 - We then undersampled the data using ClusterCentroids resampler algorithm
 - After that, we wanted to use a combination of both over- and undersampling. For this we used SMOTEENN algorithm
