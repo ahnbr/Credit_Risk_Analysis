@@ -70,4 +70,4 @@
 
 ## Summary
 
-In trying to determine which loans would be considered high or low credit risk, we resampled our data using 6 different models. We used 4 models of resampling, which included oversampling, undersampling and a combination of both and these models provided modest results. When we switched to ensemble classifiers, our results were significantly better. While Balanced Random Forest did produce very good results, Easy Ensemble demonstrated a better representation of recall and precision so our recommendation for a machine learning model would be to use the Easy Ensemble Classifier. 
+In trying to determine which loans would be considered high or low risk, we resampled our data using 6 different models. We used 4 models of resampling, which included oversampling, undersampling and a combination of both and these models provided modest results. When we switched to ensemble classifiers, our results were significantly better. While Balanced Random Forest did produce very good results, Easy Ensemble demonstrated a better representation of recall and precision so our recommendation for a machine learning model would be to use the Easy Ensemble Classifier. 
