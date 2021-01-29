@@ -16,4 +16,7 @@
 
 - Native Random Oversamping
 
+<img width="860" alt="Screen Shot 2021-01-29 at 10 38 23 AM" src="https://user-images.githubusercontent.com/68168883/106295316-4587ca00-621e-11eb-8e88-5513bd72e594.png">
+
+
 
