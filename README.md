@@ -43,7 +43,7 @@
 
 ### Combination (Over and Under) Sampling
 
-<img width="862" alt="Screen Shot 2021-01-29 at 10 54 02 AM" src="https://user-images.githubusercontent.com/68168883/106297467-bc25c700-6220-11eb-9e5c-d6274cba360a.png">
+<img width="854" alt="Screen Shot 2021-01-29 at 10 56 58 AM" src="https://user-images.githubusercontent.com/68168883/106373359-b2967f00-6346-11eb-8227-910383c52285.png">
 
 - In this test, we used SMOTEENN to resample our data and found that the balanced accuracy was 54.4%, the lowest thus far.
 - Overall precision also remained the same at 99% overall and 1% for high risk and 100% for low risk.
