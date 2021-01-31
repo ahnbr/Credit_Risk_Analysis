@@ -55,7 +55,7 @@
 <img width="851" alt="Screen Shot 2021-01-29 at 11 02 38 AM" src="https://user-images.githubusercontent.com/68168883/106298359-cc8a7180-6221-11eb-9e79-6b059c284ce3.png">
 
 - Here we used the Balanced Random Forest Classifier and our balanced accuracy score was 76.4%.
-- Our overall precision was but we noticed that the high risk went up slightly to 3%. 
+- Our overall precision was the same but we noticed that the high risk went up slightly to 3%. 
 - The recall for high was was only 63% but the low risk was much higher at 89%.
 - Because our recall went up, our F1 reached a new high at 94%. 
 
